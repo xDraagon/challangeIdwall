@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="idwall" id="3647D93F-5857-DE64-C740-DAB479F93947" version="3.5">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 12:51:35 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3647D93F-5857-DE64-C740-DAB479F93947</designId>
+</OSDM_Design>

@@ -1,0 +1,215 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E915C2D7-98DA-0D53-EDC4-50D30001B3E2" name="T_PROCURADO">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 12:55:51 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="875664CA-0B0A-97B2-2FAD-46DE405D0D1A">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:06:42 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nasc_local" id="0FB1BD97-FB91-B878-F751-F4D995B403EA">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:23:29 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="A845B62E-C733-C610-D40F-12630BDA0436">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:25:18 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>300</dataTypeScale>
+<ownDataTypeParameters>,3,300</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cor_olho" id="76B2C23D-EF7E-968A-D91A-0C7088D3FF17">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:25:49 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="DED26027-F3B4-0060-1D9C-5D8311C0348D">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:26:25 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>500</dataTypeScale>
+<ownDataTypeParameters>,3,500</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cor_cabelo" id="FCF4B19E-DD38-720F-9627-98F6EE356E45">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:28:11 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ocupacao" id="FC78C7DC-43AF-5745-C7B5-7698B825D2B9">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:28:59 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idiomas" id="0689E8D1-005F-52E4-6487-597862DDBFF6">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:29:46 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascionalidade" id="2BD2204D-6ECD-FE0D-ACB1-12D099A779EC">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:30:12 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="E5BE0BEE-75F2-B82E-155D-E5FDC1EB6DAF">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:31:38 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="perigo" id="CCE47A58-DFA3-4792-88E2-CA396B510F1E">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:33:41 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="recompensa" id="4C36B0AC-C1A1-B416-A690-D20C19676B6B">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:43:55 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="raca" id="35BD430F-9809-F4FB-29F9-0DB99F22F932">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:44:30 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEFCDB91-5999-F4E6-9FD0-B99E39820D58" name="T_PROCURADO PK">
+<createdBy>tiago</createdBy>
+<createdTime>2023-05-13 13:07:40 UTC</createdTime>
+<ownerDesignName>idwall</ownerDesignName>
+<engineerTo>
+<item key="D17895DD-1541-E3EF-5959-66678958373E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>875664CA-0B0A-97B2-2FAD-46DE405D0D1A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
